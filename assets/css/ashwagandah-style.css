@@ -1,0 +1,2883 @@
+body{
+font-family: 'Inter', sans-serif;
+}
+
+a:hover{
+text-decoration: none !important; 
+cursor: pointer;
+}
+/*color*/
+.green-bg{
+background-color:#A37B38;
+}
+
+.light-g-bg{
+background-color:#A37B38;
+}
+
+.white-bg{
+background-color:#fff;
+}
+
+.slight-bg{
+background-color:#F4EFDD;
+}
+
+.green2-bg{
+background-color:#A37B38;
+}
+
+.gradient-bg{
+background-image: linear-gradient(#ffc14a,#ffaa35);
+}
+
+.gradient-bg2{
+background-image: linear-gradient(#5e5e5e,#313131);
+}
+
+.green-text{
+color:#A37B38;
+}
+
+.white-text{
+color:#fff;
+}
+
+.orange-text{
+color:#ffb713;
+}
+
+.black2-text{
+color:#2c2645;
+}
+
+.gray-text{
+color:#939393;
+}
+
+/*float*/
+
+.left{
+float: left;
+}
+
+.right{
+float: right;
+}
+
+.clear{
+clear: both;
+}
+
+/*alignment*/
+
+.center-text{
+text-align: center;
+}
+
+/*text-style*/
+
+.xsmall-text{
+font-size: 10px;
+}
+
+.small-text{
+font-size: 15px;
+line-height: 20px;
+}
+
+.small-text2{
+font-size: 18px;
+line-height: 28px;
+}
+
+.small-text3{
+font-size: 25px;
+line-height: 30px;
+}
+
+.medium-text{
+font-size: 20px;
+line-height: 28px;
+}
+
+.medium-text2{
+font-size: 26px;
+line-height: 37px;
+}
+
+.large-text{
+font-size: 38px;
+font-weight:600;
+line-height: 45px;
+}
+
+.slarge-text{
+font-size: 44px;
+line-height: 46px;
+font-weight: 600;
+}
+
+.xslarge-text{
+font-weight: 600;
+font-size: 60px;
+line-height: 68px;
+}
+
+/*font-weight*/
+.t-700{
+font-weight: 700;
+}
+
+.t-500{
+font-weight: 500;
+}
+
+.t-600{
+font-weight: 600;
+}
+
+.t-400{
+font-weight: 400;
+}
+
+.t-900{
+font-weight: 900;
+}
+
+.upper-case{
+text-transform: uppercase;
+}
+
+.demand{
+color:#fff;
+text-align:center;
+padding: 8px 0;
+font-size: 15px;
+font-weight: 400;
+}
+
+.b1g3-cart{
+border-radius: 50px;
+padding: 20px 10px;
+text-transform: uppercase;
+width: 276px;
+text-align:center;
+font-weight: 800;
+font-size: 21px;
+}
+
+.b1g3-cart span{
+margin: 0 10px;
+}
+
+.nav-cart{
+height: 40px;
+display: flex;
+align-items: center;
+width: 200px;
+justify-content: space-between;
+margin-left: 200px;
+margin-top: 10px;
+font-size: 17px;
+}
+
+.nav-text{
+margin-left: 30px;
+}
+
+.nav-cart #cart-icon1{
+width:30px;
+}
+
+nav{
+margin: 0 auto;
+}
+
+.links-nav{
+margin: 0 auto;
+align-items: center;
+height: 30px;
+font-size: 15px;
+font-weight: 500;
+}
+
+#banner-img1{
+background: #e5f2eb url('https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-Moringa-hero3.webp') no-repeat top right/cover!important;
+padding-bottom: 20px;
+}
+
+.headline{
+margin-left: 40%;
+padding: 80px 20px;
+}
+
+.experience{
+font-weight: 400;
+font-size: 26px;
+}
+
+.headline .h-title{
+font-weight: 800;
+font-size: 40px;
+line-height: 43px;
+}
+
+.safe-desc{
+padding: 30px 100px;
+text-align: center;
+border-radius: 20px;
+margin: 15px 0 20px 0;
+}
+
+.safe-desc img{
+width: 60px;
+float: left;
+}
+
+.safe-cols{
+width: 30px;
+font-size: 17px;
+font-weight: 700;
+color: #2c2645;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.safe-desc span{
+margin-left: 10px;
+width: 200px;
+float: left;
+text-align: left;
+}
+
+#benefits-reviews{
+padding: 30px 30px;
+background: url('https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-leaves-bg.webp') no-repeat -150px 150px/450px;
+}
+
+#pure-moringa{
+margin: 0 auto;
+padding: 0;
+}
+
+#pure{
+padding-top: 50px;
+}
+
+#benefits{
+display: flex;
+background-color: #FAF9F0;
+border-radius: 25px;
+flex-direction: column;
+padding: 20px 40px;
+margin: 0 20px;
+}
+
+#benefits h3{
+    font-weight: 600;
+    font-size: 38px;
+}
+.benefits-p{
+    display: flex;
+    flex-direction: row;
+    justify-content: 20px;
+    margin: 5px 10px;
+    align-items: center;
+}
+.benefits-p img{
+    flex-shrink: 0;
+    width: auto;
+}
+.benefits-icon{
+    width: 34px;
+    margin-right: 15px;
+}
+#reviews{
+    border-radius: 20px;
+    background-color: #f2f8f5;
+    margin: 80px 20px 0 20px;
+    padding: 30px 40px;
+}
+#reviews .card{
+    border: 0;
+    border-radius: 20px;
+    background-color: #f9fcfb;
+}
+.rating_star {
+    margin-left: 18px;
+    width: 1px;
+}
+.rating_star img {
+    width: 17px;
+    margin-top: 10px;
+}
+.location{
+    margin-left:-5%;
+    float: left;
+    font-size: 19px;
+    color: #017d3e;
+}
+.rev-name{
+    font-size: 24px;
+}
+.cody-bramlett{
+    border-radius: 20px;
+    background-color: #FAF9F0;
+    margin: 80px 20px 0 20px;
+    padding: 30px 40px;
+}
+#cody{
+    background: #F9FCFB url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-cody-desktop.png") no-repeat right top/45%;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+#cody-statement{
+    width: 60%;
+    border-bottom: 1px #dfdfdf solid;
+    padding: 10px 0 20px 0;
+}
+.discovered{
+    width: 70%;
+    font-size: 38px;
+    line-height: 45px;
+    font-weight: 600;
+}
+#natures-med{
+    padding: 30px 40px;
+    background: url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-plant.webp") no-repeat right top/28%;
+}
+#natures-med p{
+    width: 70%;
+}
+#any-age{
+    display:block;
+    background: url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-plant-bg.webp") no-repeat center 20px/contain;
+    padding: 5% 15%;
+    width: 100%;
+    text-align: center;
+}
+#any-age h2{
+    font-size: 38px;
+    margin-top: 20px;
+}
+#any-age .b1g3-cart{
+    margin: 0 auto;
+}
+#superfood{
+    position: relative;
+    border-radius: 10px;
+    background: #f9fcfb url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-bottle-bg3.png") no-repeat 70px 50px/250px;
+    padding: 50px 40px;
+}
+#m-powder {
+    position: absolute;
+    left: -37px;
+    width: 150px;
+}
+#superfood .super-p {
+    width: 70%;
+    margin-left: 30%;
+}
+#superfood hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#how-to-use{
+    display: flex;
+    justify-content: space-around;
+}
+.circles{
+    background-color: #017d3e;
+    width: 45px !important;
+    height: 45px;
+    border-radius: 50%;
+    padding-top: 10px;
+    margin:0 auto;
+    margin-top: -140%;
+    font-size: 13px;
+}
+.usage{
+    margin: 0 5px;
+}
+.use-icons{
+    background-color: #f2f8f5;
+    padding: 40px 30px 20px 30px;
+    border-radius: 10px;
+    width: 100%;
+    height: 120px;
+}
+.use-icons img{
+    width: 40px;
+    margin-top: 10px;
+}
+#moringa-powder{
+    height: 400px;
+    width: 100%;
+    background: url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-moringa-powder.png") no-repeat 0 10px/15%;
+    margin-top: -75%;
+    margin-left: -5%;
+}
+#what-moringa {
+    margin-top: 50px;
+    background: #FAF9F0 url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-moringa-powder3.png") no-repeat 95%/35%;
+}
+#moringa-desc {
+    padding: 40px 350px 40px 40px;
+    margin-bottom: 100px;
+}
+#moringa-leaves{
+    border-radius: 30px;
+    border: 30px #f9fcfb solid;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #F6F5EB;
+    margin-top: -5%;
+}
+#leaves-desc{
+    padding: 40px 350px 40px 30px;
+    background: url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-plant-bg-right.webp") no-repeat 700px center/55%;
+    border-radius: 30px;
+}
+#natural-ingr{
+    background-color: #f4efdc;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+#natural-ingr img{
+    width: auto;
+    margin-top: -30px;
+    bottom: 0;
+    position: absolute;
+}
+#only-best{
+    padding: 70px 40px 20px 80px;
+    width: 65%;
+}
+.join-thousands{
+    width: 75%;
+    background: #A37B38 url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-moringa-3bott-bg.jpg") no-repeat right center/contain;
+    padding: 80px 20px 80px 50px;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+}
+.join-thousands h1{
+    text-align: center;
+    width: 70%;
+}
+.join-t{
+    width: 60%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 59px;
+}
+/*sales section*/
+.sales-sec{
+    margin:0 auto;
+    padding: 30px 0;
+}
+.bottles-moringa{
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 20px;
+}
+.sale-b1g3{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main-bottle{
+    width: 40%;
+    margin:0 auto;
+    padding-bottom: 20px;
+}
+.small-bottles{
+    display: flex;
+    flex-direction: row;
+}
+.small-bottles img{
+    width: 20%;
+    margin-left: 20px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.b1g3-button{
+    border-radius: 50px;
+    background-color: #017d3e;
+    color: white;
+    text-align: center;
+    height: 35px;
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b1g3-col{
+    width: 60%;
+    margin: 0 0 0 20px;
+}
+.b1g3-benefits {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+    margin: 25px auto;
+    justify-content: space-around;
+}
+.b1g3-benefits span{
+    font-size: 16px;
+}
+.b1g3-benefits img{
+    width: 40px;
+    margin: 0 10px;
+}
+.price-moringa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50px;
+    padding-top:13px;
+    height: 89px;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+.price-moringa .b1g3-cart{
+    width: 260px;
+    border-radius: 50px;
+    height: 89px;
+    font-size: 21px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.price-moringa sup{
+    font-size: 29px;
+}
+.price-49{
+    margin-left: 20px;
+    color: #2c2645;
+}
+.guarantee-180days{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    font-size: 24px;
+    font-weight: 700;
+}
+.guarantee-180days img{
+    width: 150px;
+    margin-right: 20px;
+}
+#nutri{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 140px auto 100px auto;
+    padding: 20px 50px;
+    align-items: center;
+    background-color: #f2f8f5;
+    border-radius: 20px;
+}
+#nutri-bottle{
+    width: 50%;
+    margin-top: -100px;
+}
+#nutri-ing{
+    margin-top: -150px;
+    width: 85%;
+    margin-left: 50px;
+}
+#ing-text p.black2-text {
+    font-size: 24px;
+    line-height: 30px;
+}
+#ing-text{
+    margin-left: 40px;
+    width: 80%;
+}
+#smart-way{
+    padding: 20px 0 50px 0;
+    background: #FAF9F0 url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-flower-bg.png") no-repeat right 150px;
+}
+#smart-way h2{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:30px;
+}
+.smart-way-details{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 40px;
+    border-radius: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    width: 100%;
+    align-items: center;
+}
+.smart-way-details span{
+    font-size: 30px;
+    font-weight: 500;
+}
+.smart-way-details p{
+    margin: auto auto;
+}
+.smart-way-details img{
+    width: 70px;
+    margin-right: 30px;
+}
+.sw-bg1{
+    background: #fdfdf9 url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-brain-bg.png") no-repeat right bottom;
+}
+.sw-bg2{
+    background: #fdfdf9 url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-diabetes-bg.png") no-repeat right bottom;
+}
+.sw-bg3{
+    background: #fdfdf9 url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-heart-bg.png") no-repeat right bottom;
+}
+#laboratory-blend{
+    margin:0 auto;
+    padding: 30px 0;
+    width: 80%;
+    text-align: center;
+}
+#laboratory-blend h5{
+    width: 70%;
+    margin: 30px auto;
+    font-size: 30px;
+    line-height: 37px;
+    font-weight: 500;
+}
+#control{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px;
+    background-color: #f2f8f5;
+    border-radius: 20px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+}
+#take-back{
+    width: 50%;
+}
+#say-yes{
+    background-color: #f9fcfb;
+    background-image: url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-modal-leaf-bg-modal.webp") no-repeat;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px 20px;
+    border-radius: 20px;
+    width: 38%;
+    margin-left: 70px;
+}
+#say-yes .b1g3-cart{
+    margin: 0 auto;
+}
+#say-yes h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+#yes-icons{
+    display: flex;
+    flex-direction: row;
+}
+#yes-icons span{
+    font-size: 22px;
+    line-height: 26px;
+}
+#yes-icons div{
+    padding: 0;
+}
+#yes-icons img{
+    width: 56px;
+    margin-bottom: 15px;
+}
+#table-check{
+    padding: 50px 0;
+}
+#table-check h4{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight:500;
+}
+#comparison{
+    border-radius:20px;
+    border: 1px green solid;
+    margin: 0 auto;
+    width: 60%;
+    padding: 10px 0;
+}
+#bottle-sup{
+    width: 80px;
+    margin-bottom:-90px;
+    margin-left: 30px;
+}
+.fillers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    text-align: left;
+    padding: 20px;
+}
+.fillers p{
+    width: 50%;
+    font-size:20px;
+}
+.row-title{
+    margin-left: 150px;
+    font-size: 21px;
+}
+.fillers span{
+    width: 80%;
+    float: right;
+    font-size: 20px;
+    font-weight: 500;
+}
+.fillers img{
+    margin-right: 15px;
+    width: 20px;
+}
+#comparison table{
+    width: 100%;
+}
+#comparison h6{
+    padding: 20px 120px;
+    text-align:center;
+    font-size: 20px;
+}
+.t-pads{
+    padding: 20px 20px;
+}
+#moringa-quality{
+    border-radius: 30px;
+    border: 30px #f9fcfb solid;
+    width: 100%;
+    background-color: #f2f8f5;
+    margin: 20px auto;
+    padding: 50px 120px;
+    text-align: center;
+    background-size: contain;
+    background-image: url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-leaf-bg-right.png"), url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-leaf-bg-left.png");
+    background-position: 850px -120px, -150px 100px;
+    background-repeat: no-repeat, no-repeat;
+}
+#moringa-quality p{
+    font-size: 20px;
+    color: #2c2645;
+}
+#health-happy{
+    position: relative;
+    border-radius: 30px;
+    border: 30px #f3f3f7 solid;
+    width: 80%;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 50px 200px 50px 50px;
+}
+
+#health-happy img{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 200px;
+    transform: rotate(30deg);
+}
+#contact-info{
+    background-color: #f3f3f7;
+    padding: 20px 200px;
+}
+#contact-details{
+    background-color: #fff;
+    width: 80%;
+    margin: 50px auto;
+    padding: 80px 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+#help-u{
+    background-color: #f3f3f7;
+    border-radius: 20px;
+    padding: 80px 20px;
+}
+.help-font{
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 800;
+}
+.call-us{
+    border-radius: 50px;
+    width: 400px;
+    margin: 0 auto;
+    padding-left: 3%;
+    height:70px;
+    text-align:center;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-phone-icon.png"),linear-gradient(#ffc14a,#ffaa35);
+    background-size: 50px, contain;
+    background-position: left center;
+    background-repeat: no-repeat;  
+}
+#customer-speaks{
+    padding: 70px 20px 60px 20px;
+}
+#customer-speaks img{
+    width: 163px;
+    margin-bottom: 20px;
+}
+.speak-info{
+    width: 90%;
+}
+.call-us img{
+    width: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.email-us img{
+    width: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.email-us{
+    border-radius: 50px;
+    width: 400px;
+    margin: 0 auto;
+    padding-left: 3%;
+    height:70px;
+    text-align:center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    background-size: 50px, contain;
+    background-position: left center;
+    background-image: url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-email-icon.png"),linear-gradient(#5e5e5e,#313131);
+    background-repeat: no-repeat;  
+
+}
+.email-us p{
+    width: 70%;
+    margin: -2 auto;
+
+}
+.support-t{
+    margin-top: -25px !important;
+    font-weight: 800;
+}
+/*modal style*/
+.modal-content{
+    background: transparent !important;
+    border: 0 !important;
+}
+.modal {
+    overflow: auto !important;
+}
+.b1g3-body-m{
+    border-radius: 25px;
+    background: #f2f8f5 url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/modal-moringa-bg2.png") no-repeat left bottom/70%;
+    margin: 10px 0 20px 0;
+}
+.modal-header{
+    background-color: transparent;
+}
+#b2g6-modal .modal-dialog {
+    max-width: 65% !important;
+    height: auto;
+    padding: 20px 0;
+    margin: 0 auto;
+    border-radius: 30px !important;
+}
+.modal-b2g6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.modal-headline{
+    width: 70%;
+    height: 496px;
+    padding-top: 20px;
+}
+.modal-headline h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 68px;
+}
+.agree-text{
+    background-color: #fff;
+    border-radius: 25px;
+    border: 1px #d7d7d7 solid;
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+.agree-text .take-free{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+}
+#special-offer{
+    width: 248px;
+    height: 42px;
+    background-color: #017d3e;
+    margin: 0 auto;
+    justify-content: center;
+    text-transform: uppercase;
+    color:white;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 700;
+}
+.b2g6-cart{
+    border-radius: 50px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    width: 70%;
+    height: 74px;
+    text-align:center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 700;
+}
+.guarantee-modal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75%;
+    margin:25px auto 10px auto;
+    text-align: left;
+}
+.guarantee-modal img{
+    width: 60px;
+    margin-right: 20px;
+}
+.guarantee-modal p{
+    font-size: 20px;
+    margin: auto;
+    font-weight:600;
+}
+.guarantee-modal span{
+    font-weight:800;
+}
+#m-cards{
+    width: 55%;
+    margin: 15px auto;
+    text-align: center;
+}
+.b1g3f-cart{
+    border-radius: 50px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    width: 248px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    background-color: #575658;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 800;
+}
+.modal-content .close{
+    padding: 0;
+    background-color: #575658;
+    border: 0;
+    height: 40px;
+    color: white;
+    border-radius: 50px;
+    width: 40px;
+}
+.modal-open .modal{
+    background-image: linear-gradient(rgba(31, 31, 31, .8), rgba(26, 26, 26, .8));
+}
+/*hidden elements*/
+.mobile-sale-price{
+    display: none;
+}
+.all-u-need{
+    display: none;
+}
+.demand-mobile{
+    display: none;
+}
+.hid-text-and{
+    display: none;
+}
+#bottle-sup2{
+    display: none;
+}
+/*media queries*/
+@media screen and (min-width: 1900px){
+    .container{
+        width: 1160px;
+    }
+    .agree-text .take-free {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:1725px) {
+    .b2g6-cart{
+        width: 75%;
+    }
+    .modal-headline h1 {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:1650px) {
+    .b2g6-cart{
+        width: 85%;
+    }
+}
+@media screen and (max-width:1500px) {
+    #banner-img1 {
+        background-size: cover;
+        background-position: -220;
+    }
+}
+@media screen and (max-width:1450px) {
+    .b2g6-cart {
+        font-size: 20px;
+    }
+    .guarantee-modal {
+        width: 85%;
+    }
+    .modal-headline{
+        height: auto;
+        width: 60%;
+    }
+    .modal-headline h1 {
+        margin-top: 10px;
+        font-size: 39px;
+    }
+}
+@media screen and (max-width: 1300px){
+    #banner-img1 {
+        background-size: cover;
+        background-position: -220;
+    }
+    #leaves-desc {
+        padding: 40px 50px 40px 30px;
+    }
+    #natural-ingr img {
+        width: 400px;
+        margin-top: 40px;
+    }
+    #only-best {
+        padding: 70px 0 0 10px;
+        width: 75%;
+        margin-bottom: 20px;
+    }
+    #laboratory-blend {
+        margin: 0 auto;
+        padding: 30px 30px;
+        width: 100%;
+        text-align: center;
+    }
+    #comparison{
+        width: 95%;
+    }
+    #moringa-quality{
+        width: 90%;
+    }
+    .join-thousands{
+        width: 85%;
+    }
+    #contact-details{
+        width: 85%;
+    }
+    .join-t{
+        font-size: 44px;
+    }
+    .xslarge-text {
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 45px;
+    }
+    .agree-text{
+        width: 50%;
+    }
+    .modal-headline {
+        width: 60%;
+        height: auto;
+    }
+    .modal-headline h1{
+        font-size:30px;
+        padding-top: 20px;
+    }
+    #contact-info{
+        padding: 20px 100px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .nav-cart{
+        margin-left: 90px;
+    }
+}
+@media screen and (max-width: 1100px){
+    #banner-img1 {
+        background-size: cover;
+        background-position: -220;
+    }
+    #what-moringa{
+        background: transparent;
+    }
+    #moringa-desc {
+        padding: 290px 40px 40px 40px;
+        background: url(https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-moringa-powder3.webp) no-repeat center 20px;
+        margin-bottom: 100px;
+    }
+    #moringa-leaves{
+        width: 100%;
+    } 
+    #leaves-desc{
+        padding: 40px;
+    } 
+    #only-best {
+        padding: 70px 0 20px 20px;
+        width: 50%;
+    }
+    .join-thousands{
+        width: 100%;
+    }
+    .xslarge-text {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .large-text {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    #nutri{
+        width: 100%;
+    }
+    .smart-way-details{
+        width: 100%;
+    }
+    #laboratory-blend {
+        padding: 30px 30px;
+        width: 100%;
+    }
+    #yes-icons span {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    #table-check h4 {
+        width: 80%;
+        font-size: 25px;
+    }
+    #comparison{
+        width: 90%;
+    }
+    #moringa-quality{
+        width: 100%;
+        padding: 20px;
+    }
+    .join-thousands {
+        width: 100%;
+    }
+    .join-thousands h1 {
+        width: 60%;
+    }
+    .join-t {
+        width: 60%;
+        font-size: 34px;
+        line-height: 39px;
+    }
+    #health-happy{
+        width: 100%;
+    }
+    #contact-details{
+        width: 90%;
+    }
+    .safe-desc {
+        padding: 30px 10px;
+    }
+}
+@media (max-width: 1024px){
+    .nav-cart{
+        margin-left: 20px;
+    }
+    #superfood{
+        background-size: 200px;
+    }
+    #contact-info {
+        padding: 20px 0;
+    }
+    .b2g6-cart {
+        width: 85%;
+        font-size: 18px;
+    }
+    .guarantee-modal{
+        width: 95%;
+    }
+    #b2g6-modal .modal-dialog {
+        max-width: 75% !important;
+    }
+}
+@media screen and (max-width: 980px){
+    .navbar{
+        flex-direction: row-reverse;
+    }
+    .links-nav {
+        height: auto;
+    }
+    .navbar-brand{
+        margin-right: 37%;
+    }
+    .container {
+        max-width: 800px;
+    }
+    #superfood {
+        background-position: 40px 70px;
+    }
+}
+@media screen and (max-width: 870px){
+    #banner-img1 {
+        background-position: -260;
+    }
+}
+@media screen and (max-width: 850px){
+    #banner-img1 {
+        background-position: -300;
+    }
+}
+@media screen and (max-width: 800px){
+    .navbar{
+        flex-direction: row-reverse;
+    }
+    .links-nav {
+        height: auto;
+    }
+    .navbar-brand{
+        margin-right: 37%;
+    }
+    .headline {
+        margin-left: 45%;
+        width: auto;
+        padding: 50px 20px;
+    }
+    .safe-desc {
+        padding: 30px 20px;
+    
+    }
+    .location {
+        margin-left: -5%;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    #pure-moringa{
+        padding: 0;
+    }
+    #superfood{
+        background-position: 0 50px;
+    }
+    #moringa-powder{
+        margin-top: -125%;
+    }
+    #moringa-desc {
+        padding: 40px 50px 40px 20px;
+        background:transparent;
+        margin-bottom: 100px;
+        margin-top: 220px;
+    }
+    #leaves-desc {
+        padding: 20px;
+    }
+    #only-best {
+        padding: 20px;
+        width: auto;
+    }
+    #natural-ingr img {
+        width: 0;
+        margin: 0 auto;
+    }
+    .join-thousands h1 {
+        width: 60%;
+        text-align: left;
+        font-size: 25px;
+    }
+    .guarantee-180days{
+        width:100%;
+        font-size: 20px;
+    }
+    .guarantee-180days img {
+        width: 100px;
+        
+    }
+    #take-back {
+        width: 70%;
+    }
+    #comparison h6 {
+        padding: 20px 10px;
+    }
+    .b1g3-button{
+        width: auto;
+    }
+    #nutri{
+        margin: 50px auto 50px auto;
+    }
+    #nutri-bottle {
+        width: 50%;
+        margin-top: unset;
+    }
+    #nutri-ing {
+        margin-top: -100px;
+    }
+    #laboratory-blend h5 {
+        width: 100%;
+        margin: 20px auto;
+    }
+    #laboratory-blend {
+        margin: 0 auto;
+        padding: 30px 20px;
+        width: 100%;
+        text-align: center;
+    }
+    #table-check h4 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #comparison {
+        width: 95%;
+        padding: 10px 0;
+    }
+    .fillers img {
+        margin-right: unset;
+        width: 20px;
+    }
+    #moringa-quality {
+        width: 100%;
+        padding: 30px;
+    }
+    .join-t {
+        margin-left: -30px;
+    }
+    #health-happy{
+        width: 90%;
+        padding: 50px 0;
+    }
+    #health-happy img {
+        width: 150px;
+    }
+    #contact-details {
+        width: 90%;
+    }
+    .sale-b1g3{
+        padding: 20px;
+    }
+    .bottles-moringa{
+        width: 45%;
+    }
+    .xslarge-text {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    #b2g6-modal .modal-dialog {
+        max-width: 95% !important;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        border-radius: 30px !important;
+    }
+    .modal-headline h1 {
+        font-size: 33px;
+    }
+    .modal-headline span{
+        font-weight: 800;
+    }
+    .b2g6-cart{
+        width:50%;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    #m-cards {
+        width: 200px;
+    }
+    .guarantee-modal {
+        width: 45%;
+        margin: 15px auto 10px auto;
+    }
+    #b2g6-modal .modal-dialog{
+        margin: 0 auto;
+    }
+    .modal-b2g6{
+        flex-direction: column;
+    }
+    .b1g3-body-m {
+        background-position: 0 70px;
+        background-size: contain;
+        padding: 0 0 20px 0 !important;
+        border-radius: 50px;
+    }
+    .modal-headline {
+        width: 100%;
+        padding-bottom: 180px;
+    }
+    .modal-headline h1 {
+        color: black;
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 0;
+    }
+    #special-offer {
+        width: 104.5%;
+        font-size: 17px;
+        font-weight:800;
+        letter-spacing: 1.89px;
+        height: 60px;
+        background-color: #017d3e;
+        margin: 0 auto;
+        justify-content: center;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        margin: -20px 0 0 -15px;
+        border-radius: 50px 50px 0 0;
+    }
+    .agree-text{
+        width: 100%;
+        padding: 20px;
+    }
+    #control{
+        padding: 20px 10px;
+    }
+    #say-yes{
+        margin-left: 30px;
+        width: 50%;
+    }
+    #benefits{
+        padding: 20px 5px;
+    }
+    #banner-img1 {
+        background-position: -280 30px;
+    }
+    #any-age{
+        padding: 5% 5%;
+    }
+    #any-age h2 {
+        line-height: 40px;
+    }
+    #superfood{
+        background-size: 200px;
+    }
+    #m-powder {
+        position: absolute;
+        left: -42px;
+        width: 120px;
+    }
+    #moringa-desc {
+        padding: 290px 40px 40px 40px;
+        background: url(https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-moringa-powder3.webp) no-repeat center 20px;
+        margin-bottom: 100px;
+        margin-top: -20px;
+    }
+    #natural-ingr{
+        margin-top: 20px;
+    }
+    .join-t {
+        margin-left: unset;
+    }
+    #control{
+        width: 100%;
+    }
+    .price-moringa .b1g3-cart {
+        width: auto;
+        font-size: 18px;
+    }
+    .b1g3-col {
+        width: 60%;;
+    }
+    .bottles-moringa {
+        width: 40%;
+    }
+    .b1g3-benefits span {
+        font-size: 14px;
+    }
+    .hows{
+        padding-bottom: 20%;
+        flex-direction: column;
+    }
+    #how-to-use {
+        padding-top: 30%;
+    }
+    .safe-desc img {
+        width: 40px;
+    }
+    #customer-speaks {
+        padding: 0 20px 60px 20px;
+    }
+}
+@media screen and (max-width: 700px){
+    #banner-img1 {
+        background-size: 170%;
+        background-position: 70px 2%;
+        padding-top: 180px;
+        padding-bottom: 10px;
+    }
+    .headline{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        padding: 80px 20px 30px 20px;
+        margin-top: 120px;
+    }
+    .b1g3-cart {
+        margin: 0 auto;
+    }
+    .join-t {
+        margin-left: -40px;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 600px){
+    .mobile-sale-price{
+        display: block;
+    }
+    .all-u-need{
+        display: block;
+    }
+    .demand-mobile{
+        display: block;
+    }
+    .demand-desktop{
+        display: none;
+    }
+    .demand{
+        font-size: 19px !important;
+        padding: 20px 70px;
+    }
+    .navbar-brand{
+        margin-right: 30%;
+    }
+    .xslarge-text {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .slarge-text {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    #banner-img1 {
+        background-size: 170%;
+        background-position: 70px 2%;
+        padding-top: 180px;
+        padding-bottom: 10px;
+    }
+    .navbar{
+        flex-direction: row-reverse;
+    }
+    .links-nav {
+        height: auto;
+    }
+    .navbar-light .navbar-toggler{
+        border:transparent !important;
+    }
+    .headline{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        padding: 80px 20px 30px 20px;
+        margin-top: 70px;
+    }
+    .headline h1{
+        font-size: 28px;
+    }
+    .headline .b1g3-cart{
+        margin: 0 auto;
+    }
+    .safe-desc {
+        flex-direction: column;
+        padding: 30px 100px;
+    }
+    .safe-cols {
+        margin-top: 10px;
+        font-size: 18px;
+        width: 95%;
+        margin: 0 auto;
+        font-size: 17px;
+        padding: 5px;
+        margin: 20px 20px 30px;
+    }
+    .safe-desc br{
+        display: none;
+    }
+    .safe-desc span {
+        width: 200px;
+    }
+    .benefits-p img {
+        /* flex-shrink: 0; */
+        margin-right: 20px;
+    }
+    #moringa-desc{
+        padding: unset;
+        background-position: top;
+        padding-top: 280px !important;
+        margin-bottom: 20px;
+        background-position: center 20px !important;
+    }
+    .discovered {
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 700;
+    }
+    
+    #natures-med .discovered{
+        font-size: 30px;
+        width: 70%;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+
+    #m-powder {
+        width: 0;
+    }
+    .hows{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .best-mobile{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 34px;
+        color: #017d3e;
+    }
+    .pure-mobile{
+        color: #2c2645;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .guarantee-180days {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        font-size: 19px;
+        font-weight: 400;
+        margin: 90px auto -20px auto;
+        text-align: center;
+        line-height: 24px;
+    }
+    #superfood hr{
+        display: none;
+    }
+    #leaves-desc{
+        padding: 20px 10px 300px 10px;
+    }
+    #moringa-leaves{
+        width: 100%;
+        border: 0;
+        margin-top: 40px;
+        background: url('https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-moringa-hand2.png') no-repeat 130px 390px/70%;
+    }
+    #only-best {
+        padding: 10px 20px 0 20px;
+        width: 100%;
+        text-align: center;
+    }
+    #pure .slarge-text {
+        margin-top: 15px;
+    }
+    .sales-sec{
+        background:transparent;
+        background-color: #f2f9f5;
+    }
+    #smart-way h2 {
+        width: 100%;
+    }
+    #pure-moringa {
+        padding: 0 0;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    #benefits-reviews{
+        padding: 0;
+    }
+    #benefits{
+        padding: 0;
+        margin: 220 20px;
+    }
+    .small-text {
+        font-size: 18px;
+    }
+    .medium-text2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .large-text {
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    .xslarge-text {
+        font-size: 35px;
+        line-height: 37px;
+    }
+    #reviews-head{
+        display: flex;
+        flex-direction: column;
+    }
+    #reviews {
+        padding: 30px 20px;
+        text-align: center;
+        margin: 170px 20px 0 20px;
+        border-radius: 30px;
+    }
+    .rating_star {
+        margin-left: 2px !important;
+        width: auto;
+    }
+    .profile-name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+    }
+    .profile-name .left {
+        margin: 0 auto;
+    }
+    .profile-name .right {
+        margin: 0 auto;
+    }
+    .location{
+        margin: 0 auto;
+    }
+    #cody{
+        background-image: url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-cody-mobile.webp");
+        background-position: 150px 20px;
+        padding: 270px 10px 30px 10px;
+    }
+    .cody-bramlett {
+        margin: 0 auto;
+        padding: 10px 10px 10px;
+        margin-top: 20px;
+    }
+    #cody-statement {
+        width: 100%;
+    }
+    .discovered {
+        width: 100%;
+    }
+    #natures-med {
+        padding: 30px 10px;
+        background-size: 45%;
+    }
+    #natures-med p {
+        width: 100%;
+        margin-top: 70px;
+    }
+    #any-age {
+        padding: 5% 5%;
+    }
+    #any-age h2 {
+        font-weight: 700;
+        line-height: 37px;
+        margin-bottom: 20px;
+    }
+    .super-food{
+        background:transparent !important;
+    }
+    #superfood .super-p{
+        margin-left: unset;
+        width: 100%;
+    }
+    #superfood{
+        padding: 240px 10px 10px 10px;
+        background: transparent;
+        background-image:url("https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-moringa-powder-mobile.webp");
+        background-repeat:no-repeat;
+        background-position: top center;
+        background-color: #f9fcfb;
+        border-radius: 40px;
+        background-size: 100%;
+    }
+    .use-icons img {
+        width: 50px;
+    }
+    #moringa-powder {
+        opacity: 0;
+    }
+    .join-thousands {
+        background-position: top center;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border-radius: 0 0 20px 20px;
+        background-color: #309762;
+        background-position: -120 20;
+        padding-top: 35%;
+        background-position: -120px 20px;
+    }
+    .join-t {
+        width: 100%;
+        font-size: 30px;
+        line-height: 27px;
+        padding: 30px;
+        margin: 0 auto;
+    }
+    .join-thousands h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        padding: 150px 20px 20px 20px;
+    }
+    .join-thousand-p{
+        height:0;
+        opacity: 0;
+    }
+    .sale-b1g3{
+        flex-direction: column-reverse;
+    }
+    .bottles-moringa{
+        width: 100%;
+        margin-top: 40px;
+
+    }
+    .b1g3-col {
+        padding-right: 0; 
+        width: 100%;
+        margin: 20px auto;
+    }
+    .b1g3-col .price-moringa{
+        height:0;
+        opacity:0;
+    }
+    .b1g3-button{
+        width: 286px !important;
+        font-size: 21px;
+        font-weight: 700;
+    }
+    #nutri {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 20px auto 0 auto;
+        padding: 20px 50px;
+        align-items: center;
+        background-color: transparent;
+        border-radius: 0;
+        text-align: center;
+    }
+    #what-moringa{
+        background-color: #f2f8f5;
+    }
+    #nutri-ing{
+        margin-left: 0;
+    }
+    #ing-text {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .smart-way-details {
+        flex-direction: column;
+        padding: 30px 20px;
+        margin: 20px auto;
+        width: 100%;
+    }
+    .smart-way-details span {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .smart-way-details img {
+        width: 60px;
+        margin-right: 10px;
+        position: absolute;
+        right: 50px;
+        margin-top: -20px;
+    }
+    #laboratory-blend{
+        width: 100%;
+        padding: 30px 0;
+    }
+    #laboratory-blend h5 {
+        font-size: 22px;
+        line-height: 25px;
+        font-weight: 500;
+        padding: 0 10px;
+    }
+    #antioxidant-p{
+        margin-top:-40%;
+    }
+    .b1g3-benefits img {
+        width: 40px;
+        margin: 0;
+    }
+    .b1g3-benefits{
+        padding: 10px;
+    }
+    .b1g3-benefits span {
+        font-size: 14px;
+    }
+    .price-moringa .b1g3-cart {
+        width: 250;
+        font-size: 18px;
+        height: 60px;
+    }
+    .price-moringa br{
+        display:none;
+    }
+    .price-49 {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .guarantee-desktop{
+        display: none;
+    }
+    #control {
+        flex-direction: column;
+        padding: 10px 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    #take-back {
+        width: 100%;
+        padding: 20px;
+    }
+    #take-back p{
+        font-size:19px;
+    }
+    #yes-icons {
+        flex-direction: column;
+        width: 95%;
+        text-align: left;
+        margin: 0 auto;
+        padding-left: 30px;
+    }
+    #yes-icons img {
+        margin-right: 5px;
+    }
+    #yes-icons br{
+        display: none;
+    }
+    #say-yes {
+        width: 90%;
+        margin-left: 0; 
+    }
+    #table-check h4 {
+        width: 90%;
+    }
+    #comparison {
+        width: 100%;
+    }
+    #comparison h6 {
+        padding: 20px 20px;
+    }
+    #bottle-sup {
+        width: 100px;
+        margin-bottom: -20px;
+        margin-left: 30px;
+        margin-top: -120px;
+        display:none;
+    }
+    #bottle-sup2{
+        width: 100px;
+        margin-bottom: -100px;
+        margin-left: 30px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    .row-title {
+        margin-left: 20px;
+        font-size: 18px;
+        width: 120px;
+    }
+    .fillers {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        text-align: left;
+        padding: 20px;
+    }
+    .fillers p {
+        width: 100%;
+        font-size:18px;
+    }
+    .fillers span {
+        font-size: 18px;
+    }
+    #moringa-quality{
+        width: 90%;
+        padding: 20px 30px;
+        border: 10px #F9FCFB solid;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    #moringa-quality h2{
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    #contact-details{
+        width: 100%;
+        padding: unset;
+    }
+    #help-u {
+        padding: 20px;
+        width: 85%;
+        margin: 10px auto;
+    }
+    #health-happy {
+        border-radius: 30px;
+        border: 10px #f3f3f7 solid;
+        width: 90%;
+        margin: 20px auto;
+        padding: 200px 20px 20px 20px;
+    }
+    #health-happy p, h3 {
+        width: 100%;
+        margin: unset;
+    }
+    #health-happy img {
+        right: 35%;
+        top: 30px;
+        width: 150px;
+        transform: unset; 
+    }
+    .agree-text .take-free{
+        font-weight: 700;
+    }
+    .b2g6-cart {
+        width: 70%;
+    }
+    .guarantee-modal p {
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .guarantee-modal {
+        width: 65%;
+        margin: 15px auto 10px auto;
+    }
+    .total-p{
+        font-size: 19px;
+    }
+    .take-free{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .b2g6-cart {
+        font-size: 21px;
+        font-weight: 800;
+    }
+    .b1g3f-cart {
+        font-size: 19px;
+        font-weight: 900;
+    }
+    .no-thanks{
+        width: 70%;
+        margin: 20px auto;
+    }
+    #customer-speaks {
+        padding: 20px;
+    }
+    #contact-details {
+        margin: 20px auto;
+    }
+    .price-moringa {
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 25px;
+        padding-top: 30px;
+        height: auto; 
+        margin: 20px auto -50px auto;
+        padding-bottom: 30px;
+    }
+    #customer-speaks img {
+        margin: 30px;
+    }
+    #b2g6-modal .modal-dialog {
+        max-width: 95% !important;
+        height: auto;
+        padding: 0;
+        border-radius: 30px !important;
+        margin: 20 auto;
+    }
+    .modal-b2g6{
+        flex-direction: column;
+    }
+    .b1g3-body-m {
+        background-position: 0 100;
+        background-size: 120%;
+        padding: 0 0 20px 0 !important;
+    }
+    .modal-headline {
+        width: 100%;
+        padding-bottom: 180px;
+    }
+    .modal-headline h1 {
+        color: black;
+        font-size: 33px;
+        padding-top: 20px;
+        font-weight: 600;
+        width: 45%;
+        line-height: 33px;
+        margin: 0 auto;
+    }
+    .agree-text{
+        width: 100%;
+        border-radius: 50px;
+    }
+    #special-offer {
+        width: 105.5%;
+    }
+    #natural-ingr img{
+        width:0px;
+    }
+    .headline .h-title {
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 37px;
+        font-weight: 600;
+    }
+    .experience {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .hid-text-and {
+        display: block;
+        font-size: 18px;
+        margin-top: -20px;
+        background-color: #fafafb;
+    }
+    .most-companies span{
+        display: none;
+    }
+}
+@media screen and (max-width: 550px){
+    #special-offer {
+        width: 107%;
+    }
+    .take-free {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 500px){
+    #special-offer {
+        width: 107%;
+    }
+}
+@media screen and (max-width: 450px){
+    #special-offer {
+        width: 108%;
+    }
+    .modal-headline h1{
+        width: 50%;
+    }
+    .take-free {
+        width: 70%;
+    }
+    .guarantee-modal {
+        width: 90%;
+    }
+    .b2g6-cart {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 428px){
+    #benefits {
+        padding: 0;
+        margin: 20 20px;
+        border-radius: 0;
+    }
+    .demand {
+        padding: 10px 20px;
+    }
+    #reviews {
+        margin: 10px 20px 0 20px;
+    }
+    #cody {
+        background-position: 95px 20px;
+        padding: 210px 10px 30px 10px;
+    }
+    #natures-med p {
+        margin-top: 20px;
+    }
+    #natures-med .discovered {
+        margin-top: 0;
+    }
+    #any-age h2 {
+        font-weight: 700;
+        line-height: 32px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    #superfood {
+        padding: 180px 10px 10px 10px;
+    }
+    #how-to-use {
+        padding-top: 10px;
+    }
+    #moringa-leaves {
+        background-image: none;
+    }
+    #pure {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 0;
+    }
+    #leaves-desc {
+        padding: 20px 10px 250px 10px;
+        background: url('https://storage.googleapis.com/wfhq_sciencenatural/Moringa-TSL2/assets/img/index-moringa-hand2.webp') no-repeat 80px 950px/70%;
+    }
+    .guarantee-180days {
+        width: 80%;
+        line-height: 24px;
+        margin: 70 auto 0 auto;
+    }
+    #nutri{
+        padding: 20px 20px;
+    }
+    #moringa-quality {
+        width: 90%;
+        padding: 20px 10px;
+    }
+    .fillers{
+        padding:10px 0;
+    }
+    .price-49 {
+        margin-left: 20px;
+        font-weight: 600;
+        margin-top: 20px;
+        font-size: 55px !important;
+    }
+    .safe-cols{
+        margin: 5px;
+    }
+    .safe-desc {
+        padding: 30px 10px;
+    }
+    .headline{
+        margin-top: 0;
+        padding: 70px 0 30px 0;
+    }
+    .email-us{
+        width: 300px;
+    }
+    .call-us{
+        width: 300px;
+    }
+    .help-font {
+        font-size: 17px;
+    }
+    .b1g3-body-m {
+        width: 95%;
+        margin: 0 auto;
+    }
+    #special-offer {
+        width: 109.5%;
+        height: 50px;
+        border-radius: 50px 50px 0 0;
+    }
+    #health-happy img {
+        right: 29%;
+    }
+    .speak-info {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .take-free {
+        width: 90%;
+    }
+    .modal-headline {
+        width: 100%;
+        height: 306px;
+    }
+    .modal-headline h1 {
+        width: 50%;
+    }
+    .b2g6-cart {
+        width: 90%;
+    }
+    .no-thanks {
+        width: 90%;
+    }
+    #table-check {
+        padding: 30px 10px;
+    }
+    .smart-way-details img {
+        margin-right: -20px;
+    }
+    #yes-icons {
+        margin: 0 auto;
+        padding-left: 10px;
+        width: 100%;
+    }
+    #table-check h4 {
+        width: 100%;
+    }
+    #contact-details{
+        width: 90%;
+    }
+    .modal-headline h1 {
+        width: 70%;
+    }
+    .most-companies {
+        margin: -10px auto 20px auto;
+        line-height: 23px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .b2g6-cart {
+        font-size: 18px;
+        height: 50px;
+        width: 75%;
+    }
+}
+@media screen and (max-width: 375px){
+    .large-text {
+        font-size: 21px;
+        line-height: 28px;
+    }
+    .small-text3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .small-text2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .medium-text2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .medium-text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .xslarge-text {
+        font-size: 30px;
+        line-height: 27px;
+    }
+    .navbar-brand {
+        margin-right: 18%;
+    }
+    .headline .h-title {
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .headline {
+        padding: 40px 0 30px 0;
+    }
+    .b1g3-cart {
+        padding: 10px 10px;
+        width: 240px;
+    }
+    .safe-desc {
+        padding: 0 10px 10px 10px;
+    }
+    #pure {
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+    #benefits h3 {
+        font-size: 30px;
+    }
+    .discovered {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    #what-moringa {
+        padding: 10px;
+    }
+    #natures-med .discovered {
+        font-size: 25px;
+    }
+    #natures-med {
+        padding: 30px 10px 10px 10px;
+    }
+    #any-age h2 {
+        font-size: 25px;
+    }
+    #comparison {
+        width: 100%;
+    }
+    .demand {
+        padding: 10px 10px;
+        font-size: 15px !important;
+    }
+    #benefits {
+        padding: 20px 0;
+    }
+    #leaves-desc {
+        background-position: 70px 750px;
+    }
+    .join-thousands {
+        margin: -35px auto 0 auto;
+        background-position: -90px 20px;
+    }
+    .join-t {
+        font-size: 25px;
+    }
+    .sales-sec {
+        margin: 20px auto;
+    }
+    .sale-b1g3 {
+        padding: 0 20px;
+    }
+    .email-us {
+        width: 280px;
+    }
+    .call-us {
+        width: 280px;
+    }
+    #smart-way h2 {
+        padding-top: 0;
+    }
+    .smart-way-details img {
+        width: 40px;
+    }
+    #smart-way {
+        padding: 20px 0 20px 0;
+    }
+    #laboratory-blend {
+        padding: 0;
+    }
+    #yes-icons {
+        padding-left: 0;
+    }
+    #yes-icons img {
+        width: 40px;
+        margin-bottom: 10px;
+    }
+    #say-yes h4 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    #say-yes {
+        padding: 20px 20px;
+    }
+    #table-check {
+        margin-top: 20px;
+    }
+    #table-check h4 {
+        font-size: 21px;
+    }
+    #bottle-sup {
+        margin-bottom: 0;
+        margin-top: -40px;
+    }
+    #comparison h6 {
+        padding: 15px 5px 20px;
+        font-size: 17px;
+    }
+    .fillers span {
+        font-size: 15px;
+    }
+    #moringa-quality h2 {
+        font-size: 25px;
+    }
+    #moringa-quality p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    #ing-text p.black2-text {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .guarantee-180days {
+        margin: 70 auto -50px auto;
+    }
+    .price-49 {
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+    .help-font {
+        font-size: 15px;
+    }
+    #customer-speaks {
+        padding: 0 20px 20px 20px;
+    }
+    .mobile-sale-price {
+        margin-bottom: 30px;
+    }
+    #health-happy img {
+        right: 27%;
+    }
+    #special-offer {
+        width: 110%;
+        height: 50px;
+        border-radius: 50px 50px 0 0;
+    }
+    .b2g6-cart {
+        font-size: 18px;
+        height: 50px;
+        width:90%;
+    }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.modal-open .modal {
+    background-image: linear-gradient(rgba(31,31,31,1),rgba(26,26,26,1)) !important;
+}
+.black-text{
+    color: black !important;
+}
+.small-bottles {
+    text-align: center;
+}
+.b1g3-cart{
+    transition: 0.20s;
+    background-image: linear-gradient(#ffc14a,#ffaa35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b1g3-cart:hover{
+    background-image: linear-gradient(#ff911b,#ff6305);
+    transition: 0.20s;
+}
+.b2g6-cart:hover{
+    background-image: linear-gradient(#ff911b,#ff6305);
+}
+.b1g3f-cart:hover{
+    background-color: #017d3e;
+} 
+.small-bottles img {
+    width: 70%;
+}
+.b1g3-benefits span {
+    font-weight: 600;
+}
+.nav-cart {
+    margin-left: 100px;
+}
+a.nav-link {
+    padding: 10px 0 !important;
+}
+.nav-text {
+    margin-left:0; 
+}
+li.nav-item.nav_menu {
+    margin-right: 30px;
+}
+/*Square buttons*/
+.b1g3-cart{
+    background-image: linear-gradient(89deg,#feae00 0%,#ee9100 100%)!important;
+    border-radius: 12px!important;
+    border: 4px solid rgb(255, 189, 49) !important;
+    padding: 10px!important;
+}
+.b1g3-cart:hover{
+    background-image: linear-gradient(179deg,#ee9100 0%,#ee9100 100%)!important;
+    border: 4px solid rgb(255, 201, 88) !important;
+    transition: 0.20s;
+}
+.b2g6-cart{
+    background-image: linear-gradient(89deg,#feae00 0%,#ee9100 100%)!important;
+    border-radius: 12px!important;
+    border: 4px solid rgb(255, 189, 49) !important;
+    padding: 10px!important;
+}
+.b2g6-cart:hover{
+    background-image: linear-gradient(179deg,#ee9100 0%,#ee9100 100%)!important;
+}
+.b1g3f-cart{
+    border-radius: 12px !important;
+    background: linear-gradient(138deg, rgba(185,185,185,1) 38%, rgba(165,165,165,1) 62%, rgba(145,145,145,1) 100%, rgba(0,212,255,1) 100%) !important;
+}
+.b1g3f-cart:hover{
+    background: #a5a5a5;;
+    background: linear-gradient(280deg, rgba(185,185,185,1) 38%, rgba(165,165,165,1) 62%, rgba(145,145,145,1) 100%, rgba(0,212,255,1) 100%)!important;
+} 
+p.gradient-bg.white-text.b1g3-cart.nav-cart {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+/*end of sq buttons*/
+
+p.gradient-bg.white-text.b1g3-cart.nav-cart{
+    margin-left :0;
+}
+.cart-nav{
+    margin-left: 100px;
+}
+#comparison{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .2), 0 3px 10px 0 rgba(0, 0, 0, .19);
+    background-color: #FAF9F0;
+}
+.circles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: unset;
+    font-weight: 600;
+    width: 60px !important;
+    height: 60px;
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 600;
+}
+.xsmall-text2{
+    font-size: 16px;
+    line-height: 20px;
+}
+.use-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.use-icons img{
+    margin-top: unset;
+}
+.modal{
+    padding-top: unset !important;
+}
+.headline .h-title {
+    font-size: 50px;
+    line-height: 50px;
+}
+.b1g3-button{
+    font-weight: 600;
+}
+.medium-text2.green-text.use-trusted {
+    font-size: 25px !important;
+}
+@media screen and (min-width: 800px){
+    
+    .join-thousands{
+        margin-bottom: 50px;
+    }
+    .cody-bramlett {
+        margin: 60px 20px 0 20px;
+    }
+    #nutri {
+        margin: 140px auto 80px auto;
+    }
+    #moringa-quality{
+        margin: 50px auto;
+    }
+    .sales-sec {
+        padding: 0 0 30px 0;
+    }
+    #health-happy {
+        padding: 50px 200px 30px 50px;
+    }
+    #contact-details {
+        padding: 50px 40px;
+        width: 100%;
+    }
+    #contact-info {
+        padding: 20px 150px;
+    }
+    .bottles-moringa{
+        justify-content: center;
+    }
+    .main-bottle {
+        width: 50%;
+    }
+    #how-to-use {
+        justify-content: space-evenly;
+    }
+    .usage{
+        width: 125px;
+    }
+    
+}
+@media screen and (max-width: 1800px){
+    .b2g6-cart{
+        width: 90% !important;
+    }
+}
+@media screen and (max-width: 1199px){
+    span.medium-text2.green-text.use-trusted {
+        font-size: 20px !important;
+    }
+}
+@media screen and (max-width: 1500px){
+    #what-moringa{
+        background-size: 30%;
+    }
+}
+@media screen and (max-width: 1100px){
+    #moringa-leaves {
+        margin-top: -100px;
+    }
+    .nav-cart {
+        margin-left: 30px;
+    }
+    .b2g6-cart{
+        font-size: 18px !important;
+    }
+}
+@media screen and (max-width: 1024px){
+    #contact-info {
+        padding: 20px 10px;
+    }
+    #what-moringa {
+        background-image: none !important;
+    }
+}
+@media screen and (max-width: 990px){
+    li.nav-item.nav_menu {
+        margin-right: 0;
+    }
+    .nav-cart {
+        margin: 0 auto;
+    }
+    .cart-nav{
+        margin-left: 0;
+    }
+    .headline .h-title {
+        font-size: 40px;
+        line-height: 43px;
+    }
+    #b2g6-modal .modal-dialog {
+        margin: 20px auto !important;
+        height: auto !important;
+    }
+    
+}
+@media screen and (max-width: 800px){
+    .b2g6-cart{
+        width: 50% !important;
+    }
+    
+}
+@media screen and (max-width: 770px){
+    .circles{
+        margin-top: -160%;
+    }
+    .navbar {
+        flex-direction: unset;
+    }
+    nav.container.navbar.navbar-expand-lg.navbar-light.light_bg {
+        flex-direction: row-reverse;
+    }
+    .b2g6-cart {
+         width: 40% !important;
+    }
+}
+@media screen and (max-width: 600px){
+    .nav-text {
+        margin-left: 0;
+    }
+    .navbar-brand {
+        margin-right: 35%;
+    }
+    .nav-cart {
+        margin: 0 auto;
+    }
+    #moringa-desc {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #any-age {
+        margin: 0 auto;
+    }
+    .bottles-moringa {
+        margin-top: 0!important;
+    }
+    #leaves-desc{
+        margin-top: 20%;
+    }
+    .small-bottles {
+        justify-content: space-around;
+    }
+    .small-bottles img {
+        margin-left: 10px;
+    }
+    .circles {
+         margin-top: -140%;
+    }
+    .b2g6-cart {
+    width: 70%!important;
+    }
+}
+@media screen and (max-width: 550px){
+    .navbar-brand {
+        margin-right: 32%;
+    }
+    .circles{
+        width: 50px!important;
+        height: 50px;
+        font-size: 14px;
+        line-height: 23px;
+        font-weight: 600;
+    }
+    .xsmall-text2{
+        font-size: 13px;
+        line-height: 13px;
+    }
+    .b2g6-cart {
+        width: 70%!important;
+    }
+}
+@media screen and (max-width: 428px){
+    .navbar-brand {
+        margin-right: 26%;
+    }
+    .gradient-bg.white-text.b1g3-cart.nav-cart {
+        width: 180px;
+    }
+    .small-bottles img {
+        width: 70px!important;
+    }
+    .guarantee-180days {
+        margin: 70 auto -60px auto;
+    }
+    .guarantee-180days img {
+        width: 100px;
+        margin: 10 auto;
+    }
+    #moringa-leaves {
+        padding-bottom: 25px;
+    }
+    .b2g6-cart {
+        width: 85%!important;
+    }
+}
+@media screen and (max-width: 375px){
+    .b1g3-cart {
+        width: 240px;
+    }
+    .navbar-brand {
+        margin-right: 22%;
+    }
+    .call-us {
+        width: 270px;
+    }
+    .email-us {
+        width: 270px;
+    }
+    .b2g6-cart {
+        width: 90%!important;
+    }
+}
